@@ -51,4 +51,4 @@ Only you can see your own notes — no one else who signs up for the app, even w
 
 
 
-# [link to video]()
+# [link to video](https://youtu.be/lmUNFsK5lkc)
