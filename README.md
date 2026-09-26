@@ -3,9 +3,9 @@
 This is app that allows user to create notes for anything they need. It requires a log of a username and password with a sign up including a email as well but no verification is need for the app.
 
 # Technology use
-The main AI I used to help with the coding was Claude Code. for the backend uses Back4app
+The main AI I used to help with the coding was Claude Code. for the backend uses Back4app and Netlify is what make it run online instead of locally 
 
-# [Link to app](marginalai.netlify.app)
+# [marginalai.netlify.app](https://marginalai.netlify.app/login.html))
 
 
 # Setup Instructions 
