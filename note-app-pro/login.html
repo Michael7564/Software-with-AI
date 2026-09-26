@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Log in — Marginalia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="auth-screen">
+  <div class="auth-card">
+    <div class="wordmark">marginalia</div>
+    <h1 class="auth-heading">Log in</h1>
+    <p class="auth-subtitle">Welcome back. Your notes are where you left them.</p>
+
+    <form id="login-form" class="auth-form">
+      <label>
+        Username
+        <input type="text" id="username" required autofocus>
+      </label>
+      <label>
+        Password
+        <input type="password" id="password" required minlength="6">
+      </label>
+      <p id="error" class="form-error hidden"></p>
+      <button type="submit" id="submit-btn" class="btn-primary">Log in</button>
+    </form>
+
+    <p class="auth-switch">
+      Don't have an account? <a href="signup.html">Sign up</a>
+    </p>
+  </div>
+
+  <script src="https://unpkg.com/parse/dist/parse.min.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/parse-init.js"></script>
+  <script src="js/login.js"></script>
+</body>
+</html>

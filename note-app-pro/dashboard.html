@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dashboard — Marginalia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="wordmark">marginalia</div>
+    <div class="navbar-right">
+      <span id="navbar-user" class="navbar-user"></span>
+      <button id="logout-btn" class="btn-ghost">Log out</button>
+    </div>
+  </header>
+
+  <div class="dashboard">
+    <aside class="sidebar">
+      <button id="new-note-btn" class="btn-primary btn-block">+ New note</button>
+      <p id="notes-count" class="notes-count hidden"></p>
+      <p id="notes-status" class="notes-status hidden"></p>
+      <ul id="notes-list" class="notes-list"></ul>
+    </aside>
+
+    <main class="editor">
+      <div id="editor-empty" class="editor-empty">
+        <p>Select a note, or start a new one.</p>
+      </div>
+
+      <form id="note-form" class="note-form hidden">
+        <input type="text" id="note-title" class="note-title-input" placeholder="Title" required>
+        <textarea id="note-body" class="note-body-input" placeholder="Write here…" rows="18"></textarea>
+        <p id="form-error" class="form-error hidden"></p>
+        <div class="form-actions">
+          <button type="submit" class="btn-primary">Save</button>
+          <button type="button" id="delete-btn" class="btn-danger hidden">Delete</button>
+        </div>
+      </form>
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/parse/dist/parse.min.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/parse-init.js"></script>
+  <script src="js/dashboard.js"></script>
+</body>
+</html>
