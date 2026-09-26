@@ -5,7 +5,7 @@ This is app that allows user to create notes for anything they need. It requires
 # Technology use
 The main AI I used to help with the coding was Claude Code. for the backend uses Back4app and Netlify is what make it run online instead of locally 
 
-# [marginalai.netlify.app](https://marginalai.netlify.app/login.html))
+# [marginalai.netlify.app](https://marginalai.netlify.app/login.html)
 
 
 # Setup Instructions 
