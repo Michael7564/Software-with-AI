@@ -1,4 +1,3 @@
-// Already logged in? Skip straight to the dashboard.
 if (Parse.User.current()) {
   window.location.href = "dashboard.html";
 }

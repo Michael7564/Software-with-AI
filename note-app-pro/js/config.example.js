@@ -1,5 +1,4 @@
-// Copy this file to config.js (config.js is gitignored, so your real keys
-// never get committed) and fill in your Back4app app's credentials.
+// Copy this file to config.js and fill in your Back4app app's credentials.
 // Dashboard: https://containers.back4app.com/ -> your app -> App Settings -> Security & Keys
 
 const MARGINALIA_CONFIG = {
